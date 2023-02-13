@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Get the last line of the file iacta
-last_line=$(tail -1 iacta)
-
-# Append the last line to the file iacta
-echo "$last_line" >> iacta
+tail -1 iacta >> iacta
