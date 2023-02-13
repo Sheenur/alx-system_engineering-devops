@@ -1,0 +1,3 @@
+#!/bin/bash
+# Redirect the output of the ls -la command to the file ls_cwd_content
+ls -la > ls_cwd_content
