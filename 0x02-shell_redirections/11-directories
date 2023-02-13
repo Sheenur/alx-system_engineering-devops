@@ -1,0 +1,8 @@
+#!/bin/bash
+
+count=0
+for dir in $(find . -type d | grep -v "^\.$" | grep -v "^\.\.$"); do
+  count=$((count + 1))
+done
+
+echo "Number of directories and subdirectories: $count"
