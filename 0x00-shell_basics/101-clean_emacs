@@ -1,2 +1,2 @@
 #!/bin/bash
-dir_path=$(pwd); for file in $dir_path/*~ do rm "$file"; done
+for file in $(pwd)/*~; do rm "$file"; done
