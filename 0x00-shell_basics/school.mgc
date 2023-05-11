@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "0	string	SCHOOL	School data file" > school.mgc
+echo '0 string SCHOOL School data file' | tee school.mgc >/dev/null ; file -C -m school.mgc
